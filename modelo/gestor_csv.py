@@ -1,6 +1,6 @@
 import csv
 
-class GestarCSV:
+class GestorCSV:
     @staticmethod
     def generar_csv(nombre_archivo: str = "estudiantes.csv")-> None:
         datos = [

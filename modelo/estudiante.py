@@ -1,7 +1,7 @@
 class estudiante:
     def __init__(self, nombre, correo, nota):
-        self.nombre = nombre
-        self.correo = correo
+        self.nombre = nombre.strip()
+        self.correo = correo.strip()
         self.nota = nota
 
     def __repr__(self):
