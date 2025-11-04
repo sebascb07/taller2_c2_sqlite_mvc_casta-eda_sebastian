@@ -43,14 +43,6 @@ class GestorBaseDatos:
         print("[OK] Registros importados correctamente")
     
 
-    def consultar_estudiantes(self, umbral: float = 4.0) -> list :
-            conn = sqlite3.connect(self.nombre_bd)
-            cur = conn.cursor()
-            cur.execute("SELECT nombre, nota FROM estudiantes WHERE nota >=?",(umbral,))
-            resultados = cur.fetchall()
-            conn.close()
-            return resultados
-
     def contar_estudiantes(self) -> tuple:
         conn = sqlite3.connect(self.nombre_bd)
         cur = conn.cursor()
@@ -59,7 +51,7 @@ class GestorBaseDatos:
         conn.close()
         return cantidad
     
-    def actualizar_estudiantes(self, nombre:str, nueva_nota:float, correo:str)->None:
+    def actualizar_estudiantes(self, nombre:str, correo:str, nueva_nota:float)->None:
         conn = sqlite3.connect(self.nombre_db)
         cur = conn.cursor()
         try:

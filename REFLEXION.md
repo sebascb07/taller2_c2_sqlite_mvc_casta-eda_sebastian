@@ -1,0 +1,11 @@
+# resolucion de preguntas
+
+1. la mayor ventaja al estructurar el programa en el patron MVC es principalmente como cada parte o "engranaje" del programa funciona por si solo y es bastante mas organizado de implementar en cada caso al querer aplicar alguna funcionalidad sobre el programa, por ejemplo, el querer implementar una nueva funcionalidad, y como se podra ejecutar correctamente al aplicar la logica desglosada de la misma funcionalidad, o hasta a veces aplicando reutilizacion de codigo 
+
+2. la mayor dificultad de realizar un programa asi es la complejidad que aparece en cuanto la planeacion y organizacion del codigo, debido a que como el patron pide la separacion de responsabilidades por cada una, eso vuelve bastante mas complejo asegurarse y entender como aplica al momento final la aplicabilidad del proceso, es decir al tratar de desglozar la logica de una funcion, se empieza a ramificar rapidamente sus correspondencias en cada carpeta, complicando una organizacion lineal y pidiendo un entendimiento mas avanzado del programa
+
+3. aprendi principalmente pero de forma basica como ejecuta y se maneja con implementaciones basicas una base de datos, dentro de esta los datos y realizar las acciones principales como escribir, buscar o borrar, ademas de la logica de organizacioon de los mismos datos que al tratar de pensarlo, se reconoce mejor su extension
+
+4. principalmente mejoraria la organizacion y sistema de busqueda de los datos, para evitar errores o casos de datos repetidos o corrompidos, apenas se definiera una base estructural del programa lo suficientemente buena, manejar algu tipo de interfaz grafica para que sea mas intuitivo manejar el programa en si 
+
+COMENTARIO: buenos dias o noches profe, apenas acabo de realizar la revision y no me fije que solo subio el primer commit que realice, tuve que copiar los otros dos tal cual como los habia marcado originalmente de forma local, y copiar y pegar como tal todos los datos, que pena lo tardio de la entrega, como tal yo el trabajo lo termine en horas de la mañana del dia viernes.
